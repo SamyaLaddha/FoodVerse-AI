@@ -2,7 +2,11 @@
 
 Analyze food, understand nutrition, assess freshness, evaluate kitchen hygiene, and get personalized meal recommendations.
 
+- 🌐 **Live Demo:** [https://foodverse-ai-djsd.onrender.com/](https://foodverse-ai-djsd.onrender.com/)
+- 📖 **API Docs (Swagger):** [https://foodverse-ai-djsd.onrender.com/docs](https://foodverse-ai-djsd.onrender.com/docs)
+
 > AI services are **demo/mock implementations** behind clean service interfaces (`backend/app/services/`). Each can be replaced with a real model later without changing routes or the frontend.
+
 
 ## Run it (2 terminals)
 

@@ -1,5 +1,4 @@
-// Backend address. Change here if your backend runs elsewhere.
-export const API = "http://localhost:8000";
+export const API = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? "http://localhost:8000" : "");
 
 async function handle(res) {
   if (!res.ok) throw new Error("Request failed (" + res.status + "). Is the backend running on " + API + "?");
